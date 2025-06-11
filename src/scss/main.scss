@@ -12,7 +12,14 @@
 // ==== 4. Components ====
 @use 'components/button';
 @use 'components/card';
+@use 'components/cardProduct';
 
 body {
   background-color: var(--main-color);
+}
+
+.products{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
